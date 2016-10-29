@@ -1,0 +1,192 @@
+body{
+	background: #fff;
+}
+.job_center{
+	background: #f2f2f2;
+	margin-top: 0.22rem;
+	overflow: hidden;
+}
+.job_cent1{
+	background: #f2f2f2;
+}
+.job_part1{
+	background: #f2f2f2;
+	margin-top:0.2rem;
+	overflow: hidden;
+	margin-left: 0.1rem;
+}
+.job_part2{
+	background: #f2f2f2;
+	overflow: hidden;
+	margin-left: 0.1rem;
+	position: relative;
+}
+.job_part2_center{
+	margin-top:0.2rem;
+}
+.job_centit{
+	overflow: hidden;
+}
+.job_hour{
+	font-size: 0.26rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.job_detail{
+	font-size: 0.24rem;
+	color: #c7c7c7;
+	float: right;
+	margin-right: 0.12rem;
+}
+.job_cont{
+	color: #333;
+	border-left: 3px solid #c9c9c9;
+	margin-left: 0.1rem;
+	overflow: hidden;
+}
+.job_cont_hx{
+	width: 0.4rem;
+	float: left;
+}
+.job_first{
+	margin-top: 0.32rem;
+}
+.job_cont p{
+	margin-left: 0.24rem;
+	font-size:0.24rem;
+}
+.new_job{
+	padding-top: 0.44rem;
+}
+.reward{
+	float: left;
+	font-size: 0.24rem;
+	margin-left: 0.15rem;
+}
+.job_star{
+	float: left;
+	margin:0.1rem 0 0 0.2rem;
+}
+.job_star img{
+	float: left;
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-left: 0.06rem;
+}
+.teacher_remark{
+	margin:0.8rem 0 0 0.34rem;
+	overflow: hidden;
+}
+.teacher_remark span{
+	font-size: 0.2rem;
+	color:#c3c3c3;
+	display: block;
+	float: left;
+}
+.job_stars{
+	overflow: hidden;
+}
+.job_stars img{
+	float: left;
+	width: 0.15rem;
+	height: 0.15rem;
+	margin-right: 4px;
+}
+.job_exp{
+	font-size: 0.24rem;
+	color:#949494;
+	margin-top: 0.2rem;
+}
+.job_circle{
+	overflow: hidden;
+	margin-top: 0.2rem;
+}
+.job_circle1{
+	width: 0.2rem;
+	height: 0.2rem;
+	margin-top: 0.04rem;
+}
+.job_circle img{
+	float: left;
+}
+.job_hx0{
+	width:1.6rem;
+	height:3px;
+	background:#c9c9c9;
+	float: left;
+	margin-top:0.1rem;
+}
+.job_hx1{
+	width:2.7rem;
+	height:3px;
+	background:#c9c9c9;
+	float: left;
+	margin-top:0.1rem;
+}
+.job_sort1{
+	float: left;
+	position: relative;
+}
+.job_sort{
+	margin: 0.34rem 0 0 0.48rem;
+}
+.job_circle2{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.job_percent{
+	font-size:0.2rem;
+	color:#aaaaaa;
+	position: absolute;
+	top: 1.3rem;
+	left: -1rem;
+	width: 2.7rem;
+}
+.job_cent_left{
+	width: 0.26rem;
+	height: 0.26rem;
+}
+.job_cent_left1{
+	margin-top:0.72rem;
+	margin-left: 0.1rem;
+}
+.job_cent_left2{
+	margin-left: 0.1rem;
+}
+.job_cent_hx{
+	width: 3px;
+	height: 100%;
+}
+.job_cont_right{
+	background: #fff;
+	float:left;
+	margin-left: 0.2rem;
+	width:6.942rem;
+	padding-bottom: 0.56rem;
+}
+.job_centit_center{
+	width:94%;
+	background: #fff;
+	padding-top: 0.24rem;
+	overflow: hidden;
+	float: right;
+	margin-right: 0.1rem;
+}
+.job_cont_left{
+	height: 0;
+}
+.job_cont_left1{
+	height: 0;
+}
+.job_cont_left1 img{
+	width:0.26rem;
+	height: 0.26rem;
+}
+.job_centit_top{
+	position: absolute;
+    height: 0.8rem;
+    width: 3px;
+    background: #c9c9c9;
+    left: 0.1rem;
+    top: 0px;
+}

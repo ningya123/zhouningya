@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,maximum-scale=1,user-scalable=no" />
+		<title>学习信息</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/studymsg.css" />
+	</head>
+	<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript" src="../js/study_msg.js" ></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<body>
+		<!--头部开始-->
+		<a class="top" href="#" onclick="location.href=document.referrer;">
+			<div class="back"><img src="../img/index/parents_index_01_03.png"></div>
+			<p>学习信息</p>			
+		</a>
+		<!--头部结束-->
+		<!--弹窗开始-->
+		<div class="study_screen"></div>
+		<div class="study_zj">
+			<div class="study_titles">	
+				<p class="study_title1">
+					上传证件照
+				</p>
+				<p class="study_title2">
+					能让老师更快的记住您的孩子
+				</p>
+			</div>
+			<p class="study_photo">
+				拍照	
+			</p>
+			<p class="study_select">
+				从相册选择
+			</p>
+			<p class="study_zj_cancle">取消</p>
+		</div>
+		<!--弹窗结束-->
+		<div class="studymsg_center">
+			<div class="study_cent">
+				<div class="study_opacity"></div>
+				<div class="study_cent0 blur" id="back"></div>
+				<div class="study_cent1">
+					<div class="study_cent1_tx">
+						<a class="study_cent1_txhref" href="#"><img src="../img/study_msg/study_msg_03.png"/></a>
+					</div>
+					<div class="study_cent1_nickname" style="text-align: center;">
+						<p class="study_name">贝塔</p>
+						<img class="study_sex" src="../img/study_msg/study_pc4.png"/>
+					</div>
+					<div class="study_cent1_ul">
+						<ul>
+							<li>
+								<span class="study_cent_num1">年龄&nbsp;:&nbsp;</span>
+								<span class="study_cent_num2">12岁</span>
+							</li>
+							<li class="study_cent_nums">
+								<span class="study_cent_num1">班级&nbsp;:&nbsp;</span>
+								<span class="study_cent_num2">四年级二班</span>
+							</li>
+							<li>
+								<span class="study_cent_num1">积分&nbsp;:&nbsp;</span>
+								<span class="study_cent_num2">308</span>
+							</li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+			<div class="study_cent2">
+				<div class="study_cent2_top">
+					<span>课堂成绩</span>
+				</div>
+				<div class="study_cent2_bot">
+					<div class="study_cent2_prul">
+						<span class="study_cent2_period">lesson10</span>
+						<span class="study_cent2_reward">奖励</span>
+						<ul>
+							<li><img src="../img/index/bigstar_07.png"/></li>
+							<li><img src="../img/index/bigstar_07.png"/></li>
+						</ul>
+					</div>
+					<div class="study_cent2_circula">
+						<div class="study_cent2_cul">
+							<div class="study_cent2_c a1">
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_samll scpoint" src="../img/study_msg/study_pc9.png"/>
+								</div>
+								<div class="study_cent2_start">热身</div>
+							</div>
+							<div class="study_cent2_c a2">
+								<div class="study_cent2ul"  style="width: 223px;border: 3px solid #FF0000;">
+									<ul style="margin: 0 auto;background: #008000;overflow: hidden;width:130px;height: 20px;display: -webkit-box;-webkit-box-align: center;-webkit-box-pack: center;">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									
+									
+								   </ul>
+								</div>
+								
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_stop" src="../img/study_msg/study_pc8.png"/>
+									<img class="study_cent2_middle1 study_cent2_ps"  src="../img/study_msg/study_pc10.png"/>
+								</div>
+								<div class="study_cent2_start">新曲学习</div>
+							</div>
+							<div class="study_cent2_c a3">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_start1" src="../img/study_msg/study_pc1.png"/>
+									<img class="study_cent2_middle2 study_cent2_ps" src="../img/study_msg/study_pc11.png"/>
+								</div>
+								<div class="study_cent2_start">会听的耳朵</div>
+							</div>
+							<div class="study_cent2_c a4">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_arch scpoint" src="../img/study_msg/study_pc12.png"/>
+								</div>								
+								<div class="study_cent2_start">快乐弹奏</div>
+							</div>
+							<div class="study_cent2_c a5">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">音乐欣赏</div>
+							</div>
+							<div class="study_cent2_c a6">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>								
+								<div class="study_cent2_start">小小乐队</div>
+							</div>
+							<div class="study_cent2_c a7">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">节奏连连看</div>
+							</div>
+						</div>
+					</div>
+					<div class="remark">
+						<div class="remark1">
+							<div class="remark_pic"><img src="../img/index/parents_index_08.png"/></div>
+							<p class="remark_msg">综合评语</p>
+						</div>
+						<div class="remark_hx">
+							<img src="../img/index/parents_index_09.png"/>
+						</div>
+						<div class="remark2">
+							<p>本节课表现很棒!弹奏悦耳动听节奏感强,希望继续努力,成为小音乐家。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--第三部分-->
+			<div class="study_cent3">
+				<div class="study_cent3_links">
+					<div class="study_cent3_link1">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>
+					<div class="study_cent3_link2">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>					
+				</div>
+				<div class="study_cent3_prul">
+					<span class="study_cent3_period">lesson9</span>
+					<span class="study_cent3_reward">奖励</span>
+					<ul>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+					</ul>
+				</div>
+				<!--添加-->
+			<div class="study_cent2_bot_cent">
+				<div class="study_cent2_bot">
+					<div class="study_cent2_circula">
+						<div class="study_cent2_cul">
+							<div class="study_cent2_c a1">
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_samll scpoint" src="../img/study_msg/study_pc9.png"/>
+								</div>
+								<div class="study_cent2_start">热身</div>
+							</div>
+							<div class="study_cent2_c a2">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_stop" src="../img/study_msg/study_pc8.png"/>
+									<img class="study_cent2_middle1 study_cent2_ps"  src="../img/study_msg/study_pc10.png"/>
+								</div>
+								<div class="study_cent2_start">新曲学习</div>
+							</div>
+							<div class="study_cent2_c a3">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_start1" src="../img/study_msg/study_pc1.png"/>
+									<img class="study_cent2_middle2 study_cent2_ps" src="../img/study_msg/study_pc11.png"/>
+								</div>
+								<div class="study_cent2_start">会听的耳朵</div>
+							</div>
+							<div class="study_cent2_c a4">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_arch scpoint" src="../img/study_msg/study_pc12.png"/>
+								</div>								
+								<div class="study_cent2_start">快乐弹奏</div>
+							</div>
+							<div class="study_cent2_c a5">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">音乐欣赏</div>
+							</div>
+							<div class="study_cent2_c a6">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>								
+								<div class="study_cent2_start">小小乐队</div>
+							</div>
+							<div class="study_cent2_c a7">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">节奏连连看</div>
+							</div>
+						</div>
+					</div>
+					<div class="remark">
+						<div class="remark1">
+							<div class="remark_pic"><img src="../img/index/parents_index_08.png"/></div>
+							<p class="remark_msg">综合评语</p>
+						</div>
+						<div class="remark_hx">
+							<img src="../img/index/parents_index_09.png"/>
+						</div>
+						<div class="remark2">
+							<p>本节课表现很棒!弹奏悦耳动听节奏感强,希望继续努力,成为小音乐家。</p>
+						</div>
+					</div>
+				</div>
+				<div class="last_img">
+					<img src="../img/study_msg/study_msg_bot_03.png" />
+				</div>
+			</div>	
+			<!--添加结束-->
+			</div>
+			<!--第四部分开始-->
+			 <div class="study_cent3">
+				<div class="study_cent3_links">
+					<div class="study_cent3_link1">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>
+					<div class="study_cent3_link2">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>					
+				</div>
+				<div class="study_cent3_prul">
+					<span class="study_cent3_period">lesson8</span>
+					<span class="study_cent3_reward">奖励</span>
+					<ul>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+					</ul>
+				</div>
+				<!--添加-->
+			<div class="study_cent2_bot_cent">
+				<div class="study_cent2_bot">
+					<div class="study_cent2_circula">
+						<div class="study_cent2_cul">
+							<div class="study_cent2_c a1">
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_samll scpoint" src="../img/study_msg/study_pc9.png"/>
+								</div>
+								<div class="study_cent2_start">热身</div>
+							</div>
+							<div class="study_cent2_c a2">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_stop" src="../img/study_msg/study_pc8.png"/>
+									<img class="study_cent2_middle1 study_cent2_ps"  src="../img/study_msg/study_pc10.png"/>
+								</div>
+								<div class="study_cent2_start">新曲学习</div>
+							</div>
+							<div class="study_cent2_c a3">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_start1" src="../img/study_msg/study_pc1.png"/>
+									<img class="study_cent2_middle2 study_cent2_ps" src="../img/study_msg/study_pc11.png"/>
+								</div>
+								<div class="study_cent2_start">会听的耳朵</div>
+							</div>
+							<div class="study_cent2_c a4">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_arch scpoint" src="../img/study_msg/study_pc12.png"/>
+								</div>								
+								<div class="study_cent2_start">快乐弹奏</div>
+							</div>
+							<div class="study_cent2_c a5">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">音乐欣赏</div>
+							</div>
+							<div class="study_cent2_c a6">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>								
+								<div class="study_cent2_start">小小乐队</div>
+							</div>
+							<div class="study_cent2_c a7">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">节奏连连看</div>
+							</div>
+						</div>
+					</div>
+					<div class="remark">
+						<div class="remark1">
+							<div class="remark_pic"><img src="../img/index/parents_index_08.png"/></div>
+							<p class="remark_msg">综合评语</p>
+						</div>
+						<div class="remark_hx">
+							<img src="../img/index/parents_index_09.png"/>
+						</div>
+						<div class="remark2">
+							<p>本节课表现很棒!弹奏悦耳动听节奏感强,希望继续努力,成为小音乐家。</p>
+						</div>
+					</div>
+				</div>
+				<div class="last_img">
+					<img src="../img/study_msg/study_msg_bot_03.png" />
+				</div>
+			</div>	
+			<!--添加结束-->
+			</div>
+			<!--第四部分结束-->
+			<!--第五部分开始-->
+			<div class="study_cent3">
+				<div class="study_cent3_links">
+					<div class="study_cent3_link1">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>
+					<div class="study_cent3_link2">
+						<img src="../img/study_msg/study_pc18.png"/>
+					</div>					
+				</div>
+				<div class="study_cent3_prul">
+					<span class="study_cent3_period">lesson7</span>
+					<span class="study_cent3_reward">奖励</span>
+					<ul>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+						<li><img src="../img/index/bigstar_07.png"/></li>
+					</ul>
+				</div>
+				<!--添加-->
+			<div class="study_cent2_bot_cent">
+				<div class="study_cent2_bot">
+					<div class="study_cent2_circula">
+						<div class="study_cent2_cul">
+							<div class="study_cent2_c a1">
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_samll scpoint" src="../img/study_msg/study_pc9.png"/>
+								</div>
+								<div class="study_cent2_start">热身</div>
+							</div>
+							<div class="study_cent2_c a2">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_stop" src="../img/study_msg/study_pc8.png"/>
+									<img class="study_cent2_middle1 study_cent2_ps"  src="../img/study_msg/study_pc10.png"/>
+								</div>
+								<div class="study_cent2_start">新曲学习</div>
+							</div>
+							<div class="study_cent2_c a3">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_start1" src="../img/study_msg/study_pc1.png"/>
+									<img class="study_cent2_middle2 study_cent2_ps" src="../img/study_msg/study_pc11.png"/>
+								</div>
+								<div class="study_cent2_start">会听的耳朵</div>
+							</div>
+							<div class="study_cent2_c a4">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs study_cent2_ps">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+									<img class="study_cent2_arch scpoint" src="../img/study_msg/study_pc12.png"/>
+								</div>								
+								<div class="study_cent2_start">快乐弹奏</div>
+							</div>
+							<div class="study_cent2_c a5">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">音乐欣赏</div>
+							</div>
+							<div class="study_cent2_c a6">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_big" src="../img/study_msg/study_pc14.png"/>
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>								
+								<div class="study_cent2_start">小小乐队</div>
+							</div>
+							<div class="study_cent2_c a7">
+								<ul class="study_cent2ul">
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+									<li><img src="../img/index/parents_index_13.png"/></li>
+								</ul>
+								<div class="study_cent2_cimgs">
+									<img class="study_cent2_point" src="../img/study_msg/study_pc13.png"/>
+								</div>
+								<div class="study_cent2_start">节奏连连看</div>
+							</div>
+						</div>
+					</div>
+					<div class="remark">
+						<div class="remark1">
+							<div class="remark_pic"><img src="../img/index/parents_index_08.png"/></div>
+							<p class="remark_msg">综合评语</p>
+						</div>
+						<div class="remark_hx">
+							<img src="../img/index/parents_index_09.png"/>
+						</div>
+						<div class="remark2">
+							<p>本节课表现很棒!弹奏悦耳动听节奏感强,希望继续努力,成为小音乐家。</p>
+						</div>
+					</div>
+				</div>
+				<div class="last_img">
+					<img src="../img/study_msg/study_msg_bot.png" />
+				</div>
+			</div>	
+			<!--添加结束-->
+			</div>
+			<!--第五部分结束-->
+		</div>
+	</body>
+</html>

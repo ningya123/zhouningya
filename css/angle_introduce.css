@@ -1,0 +1,40 @@
+.angle_introduce{
+	width: 100%;
+	background:#f2f2f2;
+	margin-top: 0.28rem;
+	padding: 0.4rem 0 0.6rem 0;
+}
+.angle_intro_title{
+	font-size: 0.3rem;
+	color:#383838;
+}
+.angle_intro_time{
+	font-size: 0.2rem;
+	color:#ababab;
+	margin-top: 6px;
+}
+.angle_center{
+	width: 94%;
+	margin: 0 auto;
+}
+.angel_cont p{
+	font-size: 0.2rem;
+	color: #a0a0a0;
+	margin-top: 0.24rem;
+	line-height: 0.36rem;
+}
+.angle_intro_pic1{
+	width: 100%;
+}
+.angle_intro_pic1 img{
+	width:100%;
+}
+.angle_introcenter{
+	margin-top: 0.24rem;
+}
+.angle_intro_pic2{
+	width:100%;
+}
+.angle_intro_pic2 img{
+	width:100%;
+}

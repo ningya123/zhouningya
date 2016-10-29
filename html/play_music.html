@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,maximum-scale=1,user-scalable=no" />
+		<title>弹奏播放</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/play_music.css" />
+	</head>
+	<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript" src="../js/play_music.js" ></script>
+	<body>
+		<!--头部开始-->
+		<a class="top" href="#" onclick="location.href=document.referrer;">
+			<div class="back"><img src="../img/index/parents_index_01_03.png"></div>
+			<p>弹奏播放</p>			
+		</a>
+		<!--头部结束-->
+		<!--弹奏播放第一部分标题开始-->
+		<div class="play_music_top">
+			<div class="play_top_left">
+				<img class="play_logo" src="../img/listen_music/listen_original_pic_03.png"/>
+				<div class="teacher_song"></div>
+				<span class="teacher_exp">教师录</span>
+			</div>
+			<div class="play_top_right">
+				<div class="play_top_right1">
+					<span>《致爱丽丝》片段</span>
+					<span class="play_author_name">贝多芬</span>
+					<span class="time">PM3:30</span>
+				</div>
+				<div class="clear"></div>
+				<div class="play_top_right2">
+					<span>弹奏：</span>
+					<span>李一帆</span>
+				</div>
+				<div class="clear"></div>
+				<div class="play_top_right3">
+					<span class="play_top_reward">奖励</span>
+					<div class="play_top_right_imgs">
+						<img src="../img/index/parents_index_13.png"/>
+						<img src="../img/index/parents_index_13.png"/>
+						<img src="../img/index/parents_index_13.png"/>
+						<img src="../img/index/parents_index_13.png"/>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--弹奏播放第一部分标题结束-->
+		<!--曲目简介开始-->
+		<div class="song_list">
+			<div class="song_list1">
+				<ul>
+					<li class="song_list_act">曲目简介</li>
+					<li>查看曲谱</li>
+				</ul>
+			</div>
+			<div class="song_list2">
+				<!--曲目介绍开始-->
+				<div class="tracks0">
+					<p>《致爱丽丝》简介</p>
+					<p>贝多芬</p>
+					<p>《致爱丽丝》原名《a小调巴加泰勒》</p>
+					<p>是贝多芬在1810年创作的一首独立钢琴小品</p>
+					<p>是贝多芬献给“爱丽丝”作为纪念的作品</p>
+					<p>该作品在1867年被后人所发现</p>
+					<p>后收录在《贝多芬作品全集》第25卷的补遗</p>
+					<p>部分第59号</p>
+				</div>
+				<!--曲目介绍结束-->
+				<!--查看曲谱开始-->
+				<div class="tracks1">
+					<div class="tracks1_title">
+						<p class="track1_play">弹奏曲谱</p>
+						<div class="tracks1_comment">
+							<span>评语:</span>
+							<span>此处弹奏节奏过慢,注意加强练习。此处弹奏节奏过慢,注意加强练习。</span>
+						</div>
+					</div>
+					<div class="track1_score">
+						<img src="../img/play_music/opear_19.png"/>
+					</div>
+				</div>
+				<!--查看曲谱结束-->
+			</div>
+		</div>
+		<!--曲目简介结束-->
+		<!--播放进度开始-->
+		<div class="play_plan">
+			<div class="play_plan_center">
+				<div class="play_plan_time">
+					<span class="play_startime">00:00</span>
+					<div class="play_bar">
+						<span class="play_circle" id="range_step"></span>
+						<span class="play_songbar" id="bar"></span>
+					</div>
+					<span class="play_endime">00:00</span>
+				</div>
+				<div class="clear"></div>
+				<div class="play_btns">
+					<audio id="audio" preload="metadata">
+						<source src="http://tq.llktop.com/version/haomingzi.mp3"></source>
+					</audio>
+					<div class="play_btn1">
+						<img src="../img/play_music/download_19_02.png"/>	
+						<span class="play_download">20%</span>
+					</div>
+					<img class="play_btn2" src="../img/listen_music/song_prev_07.png"/>
+					<img class="play_btn3" id="play" src="../img/study_msg/study_pc8.png" />
+					<img class="play_btn4" src="../img/listen_music/listen_next_13.png"/>
+					<a href="share.html"><img class="play_btn5"src="../img/play_music/share_22.png"/></a>
+				</div>		
+			</div>
+		</div>
+		<!--播放进度结束-->
+	</body>
+</html>

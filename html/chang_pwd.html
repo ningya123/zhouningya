@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,maximum-scale=1,user-scalable=no" />
+		<title>修改密码</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/change_pwd.css" />
+	</head>
+	<script type="text/javascript" src="../js/jquery-1.11.0.js" ></script>
+	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript" src="../js/change_pwd.js"></script>
+	<body>
+		<!--头部开始-->
+		<a class="top" href="#" onclick="location.href=document.referrer;">
+			<div class="back"><img src="../img/index/parents_index_01_03.png"></div>
+			<p>修改密码</p>			
+		</a>
+		<!--头部结束-->
+		<!--弹窗开始-->
+		<div class="pwd_screen"></div>
+		<div class="pwd_window">
+			<div class="pwd_already">
+				<img src="../img/change_pwd/change_pwd_22.png"/><span>修改成功</span>
+			</div>
+			<p class="pwd_window_tip">新密码修改成功&nbsp;!&nbsp;记得提醒孩子使用新密码登录</p>
+		</div>
+		<!--弹窗结束-->
+		<div class="change_pwd">
+			<div class="oldepwd">
+				<span class="oldpwd1">原密码&nbsp;:</span>
+				<input class="oldpwd2" type="text" value="" />
+				<input class="old_password" type="hidden" value="" />
+				<div class="oldpwd3">
+					<img class="oldpwd_del" src="../img/change_pwd/change_pwd_03.png"/>
+					<img class="oldpwd_jm" src="../img/change_pwd/change_pwd_05.png"/>
+				</div>
+			</div>
+			<div class="newpwd">
+				<div class="newpwd1">
+					<span class="newpwd1_ma">新密码&nbsp;:</span>
+					<input class="newpwd2" type="text" value="" />
+					<input class="new_password" type="hidden" value="" />
+					<div class="newpwd3">
+						<img class="newpwd_del" src="../img/change_pwd/change_pwd_03.png"/>
+						<img class="newpwd_jm" src="../img/change_pwd/change_pwd_05.png"/>
+					</div>
+				</div>
+				<div class="newpwd2_confirm">
+					<span class="newpwd_confirm1">密码确认&nbsp;:</span>
+					<input class="newpwd2_confirm2" type="text" value="" />
+					<input class="newpwd2_conf" type="hidden" value="" />
+					<div class="newpwd3_confirm3">
+						<img class="newpwd_del_confirm4" src="../img/change_pwd/change_pwd_03.png"/>
+						<img class="newpwd_jm_confirm4" src="../img/change_pwd/change_pwd_05.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<p class="change_tip"></p>
+			<div class="change_pwd_tip">
+				<p>家长端和学生端使用同一手机号和密码</p>
+				<p>修改后，两端都需要使用新密码重新登录</p>
+			</div>
+			<div class="confirm_yes">确认修改</div>
+		</div>
+	</body>
+</html>
